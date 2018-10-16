@@ -6,9 +6,9 @@ macbook pro( Mojave ) にて動作
 # 設定方法
 1. ~/bin へ全てのファイルを保存
 2. wifiswitch.sh のconfig を自分の環境に合わせて変更
-2. 追加したファイルへ実行権を追加
-3. .bashrc へ環境変数を追加
-4. ~/bin/wifiswitch.sh を実行
+3. 追加したファイルへ実行権を追加
+4. .bashrc へ環境変数を追加
+5. ~/bin/wifiswitch.sh を実行
 
 # 設定詳細
 ## wifiswitch.sh の変更
@@ -37,9 +37,10 @@ chmod +x anyconnect_disconnect.sh
 
 
 ## 補足
-Mac では、plist ファイルを作って、ファイル監視をすると
-ネットワークの切り替えが監視できるので、以下のファイルを作ると
-幸せになれるかもしれない
+Mac では、plist ファイルを作って、ファイル監視をすると<br>
+ネットワークの切り替えが監視できるので、以下のファイルを作ると<br>
+幸せになれるかもしれない<br>
+※ホームフォルダは、自分の環境に合わせて書き換えが必要
 
 
 ~/Library/LaunchAgents/github.com.himitsudesu.wifiswich.plist
